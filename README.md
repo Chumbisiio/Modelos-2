@@ -5,7 +5,7 @@ Proyecto de Modelos y Simulación de Sistemas II, Universidad de Antioquia. Comp
 
 ## Ejecutar en Google Colab
 
-1. Abre el notebook en una sesión nueva de Colab y ejecuta las celdas de arriba abajo. La **fase 0** instala las dependencias y descarga el CSV completo desde el enlace público del proyecto.
+1. Abre el notebook Smoking_and_Drinking_Dataset_with_body_signal_Grupo_3.ipynb en una sesión nueva de Colab y ejecuta las celdas de arriba abajo. La **fase 0** instala las dependencias y descarga el CSV completo desde el enlace público del proyecto.
 2. Después de la limpieza, verifica que queden **991.005 filas y 24 variables de entrada**. La partición debe mostrar **792.804 filas de entrenamiento y 198.201 de prueba**.
 3. La fase 6 genera `mejores_hiperparametros.json`. La búsqueda tomó unos 91 minutos en la corrida registrada. La fase 9 genera un CSV con **10 filas**, una por modelo y tarea.
 4. Descarga los resultados del panel de archivos de Colab antes de cerrar la sesión. El espacio de trabajo `/content` es temporal.
